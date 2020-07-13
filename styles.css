@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+a {
+    color:black ;
+}
+a:hover {
+    text-decoration : none;
+}
+
+.main {
+    background-color: none;
+}
+
+.align-right {
+    float: right;
+}
+
+.fsize-10 {
+    font-size: 10px;
+}
+
+.para-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+.bottom-left-content {
+    position: fixed;
+    bottom:10%;
+    left:6%;
+}
