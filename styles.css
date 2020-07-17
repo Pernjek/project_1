@@ -42,5 +42,25 @@ a:hover {
 .bottom-left-content {
     position: fixed;
     bottom:10%;
-    left:14%;
+    left:2%;
+}
+
+.navigation-sidebar-icon {
+    margin: 10px;
+}
+
+.navigation-sidebar-text {
+}
+
+.username {
+    float: right;
+    background-color: lightblue;
+}
+
+.button-create {
+    border-radius: 4px;
+}
+
+.background-color-white {
+    background-color: #f8f9fa;
 }
