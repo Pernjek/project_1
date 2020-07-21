@@ -27,21 +27,21 @@ $("#navigation-sidebar").append(`
         </li>
     </ul>
 
-    <ul class="list-unstyled components bottom-left-content">
+    <div class="list-unstyled components bottom-left-content">
         <hr class="w-100 ml-0"/>
         <li>
-            <a href="#">What's New</a>
+            <a class="left_menu" href="#">What's New</a>
         </li>
         <li>
-            <a href="#">Help Center</a>
+            <a class="left_menu" href="#">Help Center</a>
         </li>
         <li>
-            <a href="#">Video Tutorials</a>
+            <a class="left_menu" href="#">Video Tutorials</a>
         </li>
         <li>
-            <a href="#">Need Support?</a>
+            <a class="left_menu" href="#">Need Support?</a>
         </li>
-    </ul>
+    </div>
 </nav>
 `);
 

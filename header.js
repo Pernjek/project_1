@@ -7,7 +7,38 @@ $("#header").append(`
         <span class="caret"></span>
       </a>
       <ul class="dropdown-menu">
-        <li><i class="fas fa-bullseye"></i> Objective</li>
+      <button
+      type="button"
+      class="btn btn-secondary bg-white text-black-50"
+      data-toggle="modal"
+      data-target="#myModal"
+    >
+      Open Modal
+    </button>
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the modal.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-default"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>>
         <li><i class="fas fa-award"></i> Praise</li>
         <li><i class="fas fa-pencil-alt"></i> Private Note</li>
         <li><i class="fas fa-bars"></i> Feedback</li>
