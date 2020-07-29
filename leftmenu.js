@@ -1,6 +1,6 @@
 $("#navigation-sidebar").append(`
 <nav id="sidebar">
-    <ul class="list-unstyled components">
+    <ul class="list-unstyled components py-2">
         <li>
             <a href="index.html" class="navigation-sidebar-text"><i class="fa fa-user navigation-sidebar-icon pr-1" aria-hidden="true"></i> Home</a>
         </li>
@@ -30,17 +30,20 @@ $("#navigation-sidebar").append(`
     <div class="list-unstyled components bottom-left-content">
         <hr class="w-100 ml-0"/>
         <li>
-            <a class="left_menu" href="#">What's New</a>
+            <a class="left_menu text-black-50" href="#">What's New</a>
         </li>
         <li>
-            <a class="left_menu" href="#">Help Center</a>
+            <a class="left_menu text-black-50" href="#">Help Center</a>
         </li>
         <li>
-            <a class="left_menu" href="#">Video Tutorials</a>
+            <a class="left_menu text-black-50" href="#">Video Tutorials</a>
         </li>
         <li>
-            <a class="left_menu" href="#">Need Support?</a>
+            <a class="left_menu text-black-50" href="#">Need Support?</a>
         </li>
+        <li>
+        <a class="left_menu text-black-50" href="#">Small Improvements</a>
+    </li>
     </div>
 </nav>
 `);
