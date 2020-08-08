@@ -14,83 +14,103 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/b64ada2ea1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b64ada2ea1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body class="main bg-gray-light">
     <div class="bg-white">
-      <div class="container-fluid"  id="header">
-      </div>
+      <div class="container-fluid" id="header"></div>
     </div>
 
-      
     <div class="container-fluid py-3">
       <div class="row">
-        <div class="col-3" id="navigation-sidebar">
-        </div>
+        <div class="col-3" id="navigation-sidebar"></div>
 
-        <div class="col-9"> 
-          <div class="row">
-            <div class="col-6">
-                <h3>Your 1:1 Meetings</h3>
-                <img class="img-fluid" src ="Images/meeting.jpg">
-            </div>
-      
-            <div class="col-6 row">
-              <div class="dropdown mr-3">
-                <button class="btn btn-secondary dropdown-toggle text-black-50 bg-warning" 
-                    type="button" 
-                    id="dropdownMenuButton" 
-                    data-toggle="dropdown" 
-                    aria-haspopup="true" 
-                    aria-expanded="false">
-                      Create Meeting
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#"><h6>Create meeting</h6></a>
-                  <a class="dropdown-item" href="#"><p>The meeting will be instantly shared with the other participant</p></a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+        <div class="col-9">
+          <div class="row justify-content-between m-1">
+            <h3>Your 1:1 Meetings</h3>
+            <div class="row align-items-center">
+              <div class="pr-1">
+                Sort by
               </div>
-                            
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle text-black-50 bg-white" 
-                type="button" 
-                id="dropdownMenuButton"
-                data-toggle="dropdown" 
-                aria-haspopup="true">
-                Latest Meeting Dates
+
+              <div class="dropdown pr-2">
+                <button
+                  class="btn dropdown-toggle bg-white p-md-1"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                >
+                  Latest Meeting Dates
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-                </div>
-              <div class="alignBottom">
-                <h5>How to get started with Meetings</h5>
+              </div>
 
-                  <p>First you'll choose a meeting partner for your meeting,
-                  <br> and then set an agenda with Talking Points.</p>  
-                      
-                <div class="btn-group bg-warning mt-3">
-                  <a class="btn " href="#">
+              <div class="dropdown mr-3">
+                <button
+                  class="btn dropdown-toggle bg-warning p-md-1"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-plus fa-500px"></i> Create Meeting
+                </button>
+                <div class="dropdown-menu" 
+                aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" 
+                  href="#"><h6>Create meeting</h6></a>
+                  <a  class="dropdown-item" 
+                      href="#"><p>
+                      The meeting will be instantly shared with the other
+                      participant
+                    </p></a
+                  >
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center pt-5">
+            <div class="col-5">
+              <img class="img-fluid" src="Images/meeting.jpg" />
+            </div>
+            <div class="col-5 justify-content-center pt-5">
+              <div>
+                <h5>How to get started with Meetings</h5>
+                <p>
+                  First you'll choose a meeting partner for your meeting, <br />
+                  and then set an agenda with Talking Points.
+                </p>
+                <div class="btn-group bg-warning">
+                  <a class="btn" href="#">
                     <i class="fas fa-plus">
                       <span class="pt-1"> Kick off your first meeting</span>
                     </i>
-                  </a>                     
-                    <span class="caret"></span>
+                  </a>
+                  <span class="caret"></span>
                 </div>
-                </div>
+              </div>
             </div>
           </div>
         </div>
-        
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.slim.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="leftmenu.js"></script>
     <script src="header.js"></script>
-
   </body>
 </html>

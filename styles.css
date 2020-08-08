@@ -183,3 +183,7 @@ a:hover {
   .relativeDiv{
     position: relative;
   }
+
+  .horizontal-line {
+      color: blue;
+  }
